@@ -33,4 +33,4 @@ for n, drug in enumerate(results):
             manufacturers.index(manufacturer_name)
         except ValueError:
             manufacturers.append(manufacturer_name)
-            print("* {}".format(manufacturer_name))
+            print("* [{}]: {}".format(len(manufacturers), manufacturer_name))
